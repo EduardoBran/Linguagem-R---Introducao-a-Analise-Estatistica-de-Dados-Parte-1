@@ -1,0 +1,37 @@
+*******************       O Papel da Estatística em Ciência de Dados       ******************* 
+
+
+
+   Em Ciência de Dados, a Estatística cumpre um papel importante. Mas usamos ainda Matemática para criar um modelo de Machine Learning e Ciência da Computação quando precisamos criar programas de software para análise ou armazenar e processar dados de forma distribuída, o que é necessário quando o voume de dados é muito grande. Isso sem falar no conhecimento das áreas de negócio.
+
+   Data Science envolve muitas áreas e a Estatística é uma delas.
+
+
+
+
+***  As 3 Grandes Áreas da Estatística
+
+
+- Probabilidade
+
+    Estudo da aleatoriadade e da incerceteza. Utiliza métodos de quantificação das chances associadas aos diversos resultados.
+
+
+- Estatítisca Descritiva
+
+    Utiliza métodos para coleta, organização, apresentação, análise e síntese de dados obtidos em uma população ou amostra.
+
+
+- Estatística Inferencial
+
+    É o processo de estimar informações sobre uma população a partir dos resultados observados em uma amostra. Amostragem.
+
+
+
+
+*** Definição de Estatística
+
+    É a ciência, parte da Matemática Aplicada, que fornece métodos para coletar, descrever, analisar, apresentar e interpretar dados, para a utilização dos mesmos na tomada de decisões.
+
+
+
