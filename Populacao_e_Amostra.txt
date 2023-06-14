@@ -1,0 +1,18 @@
+************       População e Amostra       ************
+
+
+
+Sempre que você se deparar com um novo conjunto de dados, a primeira pergunta que deve ser feita é:
+    qual é minha população e qual é minha amostra ?
+
+
+
+População - são todos os elementos distintos (indivíduos, itens ou objetos) cujas características estejam sendo estudadas.
+
+Amostra   - é uma parte da população, sendo coletada a partir da população que está sendo estudada.
+
+
+-> Raramente trabalharemos com população, por isso a importância de saber diferenciar.
+
+
+
