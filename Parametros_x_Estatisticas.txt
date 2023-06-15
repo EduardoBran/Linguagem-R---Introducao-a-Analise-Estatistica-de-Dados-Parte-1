@@ -1,0 +1,52 @@
+
+Parâmetros x Estatísticas
+
+
+-> As estatísticas se baseiam nos dados da amostra e não em dados populacionais. Quando se coletam dados de toda uma       população, temos o chamado censo.
+
+-> Se você depois resume toda a informação do censo em um número, esse número é um parâmetro, não uma estatística.
+
+
+
+Portanto:
+
+-> Parâmetros  - características sobre a população. Valores calculados usando dados da população são chamados de parâmetros.
+
+-> Estatística - características sobre a amostra. Valores calculados usando dados da amostra são chamados de estatísticas.
+
+
+** Estatística Inferencial - realiza deduções e conclusões sobre a população, com base nos resultados obtidos da análise da                                 amostra.
+
+
+
+Por que não analisar a população inteira ? Por que precisar de uma amostra ?
+
+- Custo
+- Tempo
+- Necessidade
+
+
+
+
+       |   Amostra                                                  População                       |
+       |											    |
+       |      Usado para calcular                                      Usado para compreender       |
+       |  											    |
+       |   Estatística					            Parâmetro			    |
+       |                                      							    |
+       |   Exemplo:                                                 Exemplo:                        |
+       |                                                                                            | 
+       |   % da amostra que prefere			            % da população que prefere	    |
+       |   a marca de sapatos X           Usado para estimar        a marca de saptos X             |
+       |____________________________________________________________________________________________|
+
+
+
+
+-> Na prática em aprendizado de máquina, estaremos trabalhando com amostragem o tempo inteiro.
+
+
+
+
+ 
+          
