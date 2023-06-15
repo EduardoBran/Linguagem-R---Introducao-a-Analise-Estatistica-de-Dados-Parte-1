@@ -12,7 +12,35 @@ População - são todos os elementos distintos (indivíduos, itens ou objetos) cuja
 Amostra   - é uma parte da população, sendo coletada a partir da população que está sendo estudada.
 
 
+
 -> Raramente trabalharemos com população, por isso a importância de saber diferenciar.
 
 
 
+*** Como garantir que a Amostra represente fielmente a População?
+
+-> A melhor estratégia para criar uma amostra fiel é através da randomização ou aleatorização.
+
+-> Através da função sample() iremos coletar dados de maneira randomizada, ou seja coletaremos a amostra sem escolher
+   exatamente quem fará parte da amostra.
+
+-> Tão importante quanto a randomização é o tamanho da amostra e existem diversas técnicas para a coleta de amostra de dados.
+
+
+
+
+Suponhamos que sua empresa, na área de prestação de serviços de saúde, precisasse responder a seguinte pergunta:
+
+As pessoas que ingerem um tipo específico de bebida alcóolica (cerveja, por exemplo) são mais suscetíveis a ter problemas e necessitam de atendimento médico de emergência?
+
+Qual seria a população e qual seria a amostra ?
+
+População - neste caso seriam todos os indivíduos de um país com idade acima de 16 anos.
+
+Amostra   - neste caso seriam as pessoas que foram atendidas em um hospital específico. (No hospital é perguntado se a pessoa             ingeriu bebidas alcóolicas...)
+
+
+
+
+
+  
