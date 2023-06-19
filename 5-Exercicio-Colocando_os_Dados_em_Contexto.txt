@@ -1,0 +1,89 @@
+
+*** Enunciado ***
+
+
+   Uma rede de academias para mulheres decidiu fazer um estudo para verificar a influência do exercício físico praticado por  gestantes no peso de seus bebês.
+
+   O objetivo é avaliar a necessidade de mudança ou não no formato dos exercícios oferecidos nas sessões com as futuras     mamães.
+
+
+
+
+*** Compreensão do Problema ***
+
+
+-> Quanto uma grávida costuma se exercitar?
+
+-> O grau do exercício influencia o peso do bebê?
+
+-> Que pesos são mais comuns para os bebês?
+
+
+
+
+   Dentro do contexto, iremos supor que chegamos a conclusão de que a academia possui cerca de 500 gestantes registradas e assim nós coletamos o peso de 50 crianças e o quanto a mãe praticou de exercício durante a gravidez.
+   Com isso foi feito o acompanhamento de 50 gestantes durante os exercícios enquanto estavam gravidas e após o nascimento dos seus respectivos bebês, foi coletado o valor do peso de cada um.
+   Neste contexto foi feito a consulta de 5 gravidas em 10 unidades diferentes (para ficar randômico).
+   
+   E assim montamos esta tabela com as primeiras 16 observações:
+
+
+      Nível de Exercício              Peso (em gramas)
+
+           nenhum			3242,82
+ 	   mudando			3547,59
+	   mudando			3929,22
+	   nenhum			2765,92
+	baixo/moderado			3134,82
+	   mudando			2693,38
+	   mudando			3144,96
+	    alto  			3728,29
+	   nenhum			4012,09
+	   nenhum			3973,98
+           mudando			3342,50
+	   mudando                      3278,79
+	   mudando			3369,27	
+ 	baixo/moderado			3583,00
+	   nenhum			2323,93
+
+
+Responda:
+
+
+1) Qual a população?
+
+R: População seria todas as 500 gestantes que malham na academia (número citado pelo professor).
+
+
+
+2) Qual a amostra?
+
+R: Amostra seria as 50 gestantes usadas no acompanhamento e coleta de dados (número citado pelo professor).
+
+
+
+3) Qual a fonte de dados (Primário ou secundário)?
+
+R: A fonte de dados é primária, pois os dados foram coletados diretamente das gestantes durante o acompanhamento.
+
+
+
+4) Quantas observações e variáveis?
+
+R: Temos 50 observações e 2 variáveis. (Na tabela acima só exibe as primeiras 16, mas foram coletadas 50 observações).
+
+
+
+5) Quais os tipos de variáveis?
+
+R: Nível de Exercício - variável qualitativa ordinal, pois representa diferentes categorias de exercício e possui hierarquia.
+   Peso (em gramas)   - variável quantitativa contínua, pois representa valores numéricos contínuos.
+
+
+
+6) Estes dados ajudam a responder as perguntas ou precisamos de mais dados?		
+
+R: Os dados fornecidos ajudam a responder algumas perguntas relacionadas à influência do exercício físico praticado por gestantes no peso dos bebês. No entanto, para obter conclusões mais robustas, pode ser necessário coletar mais dados como alimentação da gestante, condições de saúde, tempo total de gravidez e etc...
+
+
+

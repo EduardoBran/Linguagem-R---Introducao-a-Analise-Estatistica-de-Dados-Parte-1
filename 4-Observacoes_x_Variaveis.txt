@@ -1,0 +1,74 @@
+
+Observações x Variáveis
+
+
+
+-> Observação - é uma ocorrência de um item de dados específico que é gravada sobre uma unidade de dados. Também chamada de
+                registro. (linhas de uma planilha de excel são as observações)
+
+
+-> Variáveis  - característica de intereresse que é medida em cada elemento da amostra ou população. Como o nome sugere, seus
+                valores variam de elemento para elemento. As variáveis podem ter valores numéricos ou não numéricos.
+                (colunas de uma planilha de excel)
+
+
+
+- Dependendo do conjunto de dados as observações são as colunas e variáveis são as linhas. 
+
+- Por isso nosso trabalho como Cientista de Dados é garantir que tenhamos observações e variáveis de acordo com o que os 
+  dados representam.
+
+
+- Diante de um dataset, primeiro pergunta seria "estamos trabalhando com população ou amostra". 
+- Na sequência "estes dados vieram de fonte primária ou secundária?"
+- Por fim identificamos o contexto dos dados e assim identificamos o que é Observação e o que é Variável
+
+
+
+
+
+***   Tipos de Vairáveis    ***
+
+Qualitativas - utilizam termos descritivos para descrever algo de interesse. 
+               Ex: cor dos olhos, estado civil, religião, sexo, grau de escolaridade, classe social, tipo sanguíneo...
+
+
+Quantitativa - representadas por valores numéricos que pode ser contados ou medidos.
+               Ex: número de crianças em uma sala de aula, peso, idade, número de filhos...
+
+
+
+Exemplo na prática:
+
+                 Idade		Sexo		Peso		Cor dos Olhos
+
+Indivíduo 1	  42		 M		 84		   Verde
+Indivíduo 2       34             M		 74		  Castanho	
+Indivíduo 3       56             F               89                Azul          
+Indivíduo 4       41             M               70                Preto    
+
+-> Sexo  e Cor dos Olhos: são variáveis qualitativas
+-> Idade e Peso         : são variáveis quantitativas
+
+
+
+
+Dentro das variáveis qualitativas e quantitativas ainda temos uma subdivisão para cada uma:
+
+
+           Qualitativas                                    Quantitativas
+
+    Nominais         Ordinais                         Discretas        Contínuas                                                                   
+    Profissão      Escolaridade			     Nº de filhos       Altura
+    Sexo           Classe Social		     Nº de carros	Peso	
+    Religão            Fila			     Nº de acessos      Salário
+
+
+
+
+-> Um dado classificado como "idade" é quantitativo
+   Ex: 11, 15, 25, 42 anos.
+
+-> Se o dado "idade" for informado por "faixa etária", então ele é qualitativo (ordinal), pois neste caso temos uma    hierarquia.
+   Ex: 0 - 5 anos. 6 - 12 anos. 13 - 18 anos...
+  
