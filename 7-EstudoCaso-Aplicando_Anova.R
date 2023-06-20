@@ -83,13 +83,23 @@ nota_voluntario
 
 # Dados simulando a aista com o total de testes dos 3 medicamentos
 
-medicamento <- c(rep("A",9), rep("B",9), rep("c",9))
+medicamento <- c(rep("A",9), rep("B",9), rep("C",9))
 medicamento
 
 # Criando um dataframe
 
 df <- data.frame(nota_voluntario, medicamento)
 View(df)
+
+
+
+# - Com os dados coletados, nosso problema de negócio é: Há diferença entre os medicamentos ou não?
+#
+# - Com base nisso definiremos duas hipóteses (grande maioria dos testes estatísticos são para testes de hipóteses) que
+#   foram definidas anteriormente (H0 e Ha)
+#
+# - Aplicamos o teste ANOVA e interpretamos o resultado. Com base nisso conseguiremos responder o problema de negócio.
+
 
 
 

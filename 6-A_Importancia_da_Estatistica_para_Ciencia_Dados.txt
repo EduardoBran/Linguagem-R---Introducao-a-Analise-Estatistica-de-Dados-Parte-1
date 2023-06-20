@@ -20,7 +20,7 @@
  Supondo que você é um varejista nacional e que você está tentando testar o efeito de uma nova campanha de marketing. O Cientista de Dados pode ajudar a decidir que dados devem ser obitidos, de quais fontes e como atribuir grupos experimentais para obter um bom equilíbrio entre o tamanho da amostra que você deve selecionar para obter resultados claros
 
 
-Técnicas Estatísticas utilizadas -> Design Experimental, Testes de Hipóteses e Intervalos de Confiança, Anova ( para analisar se há diferenças significativas nas taxas de cliques entre os anúncios A e B, considerando possíveis outros grupos de anúncios que possam existir.)
+Técnicas Estatísticas utilizadas -> Design Experimental, Testes de Hipóteses e Intervalos de Confiança, Anova (teste de hipótese para analisar se há diferenças significativas nas taxas de cliques entre os anúncios A e B, considerando possíveis outros grupos de anúncios que possam existir).
 
 
 
