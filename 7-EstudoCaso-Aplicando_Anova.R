@@ -69,6 +69,34 @@ library(ggplot2)
 
 
 
+# Dados fornecidos:
+#
+# Medicamento A = 4 5 4 3 2 4 3 4 4
+# Medicamento B = 6 8 4 5 4 6 5 8 6
+# Medicamento C = 6 7 6 6 7 5 6 5 5
+
+
+# Dados simulando a lista de respostas dos voluntários
+
+nota_voluntario <- c(4,5,4,3,2,4,3,4,4,6,8,4,5,4,6,5,8,6,6,7,6,6,7,5,6,5,5)
+nota_voluntario
+
+# Dados simulando a aista com o total de testes dos 3 medicamentos
+
+medicamento <- c(rep("A",9), rep("B",9), rep("c",9))
+medicamento
+
+# Criando um dataframe
+
+df <- data.frame(nota_voluntario, medicamento)
+View(df)
+
+
+
+
+
+
+
 
 
 
