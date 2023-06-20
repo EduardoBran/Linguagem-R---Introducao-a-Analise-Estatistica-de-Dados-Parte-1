@@ -1,0 +1,64 @@
+
+
+	Existem três grandes etapas principais em um projeto de Ciência de Dados:
+
+- você coleta e organiza os dados
+- analisa
+- comunica os resultados
+
+	
+	Mas pe raro que este processo siga em uma única direção: muita vezes a sua análise irá revelar que você precisa de mais dados ou dados diferentes,ou quando apresentar resultados você vai descobri uma falha em seu modelo. Acredito, isso acontece. A Estatística possui diversas técnicas para coleta de dados: amostragem e planejamento de experomentos são campos bem estabelecidos e apoiados por décadsa de pesquisa. Essas ferramentas ajudam a coletar e compreender os dados.
+
+
+	Vejamos 6 perguntas de negócio que o Cientista de Dados pode responder com a ajuda da Estatística:
+
+
+1) Por que o anúncio A tem uma taxa 5% maior de cliques do que o anúncio B em nosso web site?
+
+ Os Cientistas de Dados podem ajujdar a determinar se essa diferenÇa é significativa o suficiente para justificar maior atenção, foco e investimento.
+
+ Supondo que você é um varejista nacional e que você está tentando testar o efeito de uma nova campanha de marketing. O Cientista de Dados pode ajudar a decidir que dados devem ser obitidos, de quais fontes e como atribuir grupos experimentais para obter um bom equilíbrio entre o tamanho da amostra que você deve selecionar para obter resultados claros
+
+
+Técnicas Estatísticas utilizadas -> Design Experimental, Testes de Hipóteses e Intervalos de Confiança
+
+
+
+2) Por que as vendas em dezembro aumentar 5% ?
+
+ Os Cientistas de Dados podem usar Estatística para descobrir possíveis razões pelas quais as vendas aumentaram 5% e podem ainda ajudar a compreender o que impulsiona as vendas, qual a previsão de vendas para o próximo mês e potencias tendências.
+
+
+Técnicas Estatísticas utilizadas -> Regressão, Classificação, Análise de Séries Temporais, Análise Casual.
+
+
+
+3) Por que alguns clientes compram apenas alimentos saudáveis, enquanto outros só comprar quando há promoção?
+
+ Qualquer um pode observar que uma empresa tem 100.000 clientes que compram 10.000 itens em sua loja. Os Cientistas de Dados podem ajudar a identificar cada cliente, agrupá-los com os clientes semelhantes e entender seus hábitos de compra. Isto permite ver como o desenvolimento de novos negócios pode afetar certos grupos da população e assim direcionar a criação de novos produtos com maior probabilidade de acerto.
+
+Técnicas Estatísticas utilizadas -> Clustering, Redução de Dimensionalidade
+
+
+
+4) Várias pessoas estão se inscrevendo em nosso site e nunca mais voltam. Por que?
+
+ Por que seus clientes compram itens de seu site? Como você faz com que seus clientes retornem? Por que usuários abandonam seu web site? Que tipos de e-mails da sua emprega engajam os usuários? Quais são alguns dos principais indicadores de engajamento, atividade ou sucesso? Quais são algumbas boas oportunidades de vendas? Todas são perguntas que podem ser respondidas com ajuda da Estatística.
+
+Técnicas Estatísticas utilizadas -> Regressão, Análise de Causa e Efeito
+
+
+
+5) Dada uma matriz de usuários (clientes) e suas interações (cliques, compras, classificações) com seu web site de e-commerce (anúncios, produtos, filmes), você pode sugerir quais itens os usuários vão querer comprar?
+
+ Web sites são fontes abundantes de dados, com todos os cliques e interações dos usuários. Cada clique representa um comportamento. E se pudermos obter estes cliques por região geográfica, por estado, por faixa etária, por grau de escolaridade? E se juntarmos tudo isso, cruzamors os dados com dados de vendas e criarmos modelos preditivos? Uma empresa poderia prever com precisão quanto será o faturamento ou quantos funcionários terão que ser contratados, criando políticas e processos internos muito mais precisos.
+
+Técnicas Estatísticas utilizadas -> Modelagem Preditiva, Redução de Dimensionalidade, Filtragem Colaborativa, Clustering
+
+
+
+6) Por que nós temos um banner com 100 impressões e 0 cliques?
+
+ 0% é uma boa taxa de cliques em um banner publicitário? Com certeza não. Os Cientistas de Dados podem reunir dados para obter uma estimativa desejável, prever as propriedades dessa estimativa e compreender qual a probabilidade de cliques. Facebook e Google são bons exemplos.
+
+Técnicas Estatísticas utilizadas -> Análise Bayesiana
