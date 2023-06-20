@@ -14,7 +14,7 @@
 
 - Probabilidade
 
-    Estudo da aleatoriadade e da incerceteza. Utiliza métodos de quantificação das chances associadas aos diversos resultados.
+    Estudo da aleatoriadade e da incerteza. Utiliza métodos de quantificação das chances associadas aos diversos resultados.
 
 
 - Estatítisca Descritiva

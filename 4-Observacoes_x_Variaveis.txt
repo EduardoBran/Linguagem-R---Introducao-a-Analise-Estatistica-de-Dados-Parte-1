@@ -72,3 +72,20 @@ Dentro das variáveis qualitativas e quantitativas ainda temos uma subdivisão par
 -> Se o dado "idade" for informado por "faixa etária", então ele é qualitativo (ordinal), pois neste caso temos uma    hierarquia.
    Ex: 0 - 5 anos. 6 - 12 anos. 13 - 18 anos...
   
+
+
+
+
+Vamos explorar um pouco mais sobre esses tipos de variáveis:
+
+Qualitativas: As variáveis qualitativas são características que não podem ser quantificadas numericamente, mas são descritas por meio de termos ou categorias. Podem ser divididas em duas subcategorias:
+
+Qualitativas nominais: Nesse caso, as categorias não possuem uma ordem específica. Exemplos são o sexo, cor dos olhos, estado civil, religião, etc. Os dados são classificados em grupos distintos, mas não há uma ordem hierárquica entre eles.
+
+Qualitativas ordinais: Nesse caso, as categorias possuem uma ordem hierárquica específica. Exemplos incluem grau de escolaridade (primário, secundário, superior) ou classes sociais (baixa, média, alta). As categorias podem ser ordenadas de acordo com algum critério, mas a diferença entre elas não é necessariamente quantificável.
+
+Quantitativas: As variáveis quantitativas são medidas numéricas que podem ser contadas ou medidas de forma precisa. Podem ser divididas em duas subcategorias:
+
+Quantitativas discretas: São variáveis que representam contagens inteiras ou números inteiros específicos. Exemplos incluem o número de crianças em uma sala de aula, o número de filhos de uma família, etc.
+
+Quantitativas contínuas: São variáveis que podem assumir valores em uma escala contínua. Elas são medidas e podem assumir qualquer valor dentro de um intervalo. Exemplos incluem peso, altura, idade, temperatura, etc.
