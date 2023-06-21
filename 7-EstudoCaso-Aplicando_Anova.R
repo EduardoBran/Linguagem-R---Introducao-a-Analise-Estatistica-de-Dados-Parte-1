@@ -63,7 +63,7 @@ library(ggplot2)
 #   -> valor-p baixo (menor que 0.05): Forte evidência empírica contra H0 (rejeitamos a H0). Isso indica probabilidade
 #                                      inferior a 5% de que a H0 está correta.
 #   -> Valor-p alto (maior que 0.05) : Pouca ou nenhuma evidência empírica contra H0 (falhamos em rejeitar a H0).
-#   -> Valor igual a 0.05            : O Cientista de Daos decide se rejeita ou não a H0 ou se refaz o teste.
+#   -> Valor igual a 0.05            : O Cientista de Dados decide se rejeita ou não a H0 ou se refaz o teste.
 
 
 
@@ -81,15 +81,18 @@ library(ggplot2)
 nota_voluntario <- c(4,5,4,3,2,4,3,4,4,6,8,4,5,4,6,5,8,6,6,7,6,6,7,5,6,5,5)
 nota_voluntario
 
+
 # Dados simulando a aista com o total de testes dos 3 medicamentos
 
 medicamento <- c(rep("A",9), rep("B",9), rep("C",9))
 medicamento
 
-# Criando um dataframe
+
+# Criando o dataframe
 
 df <- data.frame(nota_voluntario, medicamento)
 View(df)
+
 
 
 
@@ -103,6 +106,27 @@ View(df)
 
 
 
+# Aplicando ANOVA
+
+?aov
+
+teste_anova <- aov(nota_voluntario ~ medicamento, data = df)
+teste_anova
+
+
+# Sumário do teste
+
+summary(teste_anova)
+
+
+# Conclusão
+#
+# Valor mais importante está na coluna " Pr(>F) " (Valor-p) que é uma estatística que nos dá o resultado sobre a 
+# interpretação de vários testes estatísticos.
+#
+# Valor-p < 0.05, ou seja, 0.000256 < 0.05, logo, reijeitamos a H0.
+#
+# As médias dos grupos não são as mesmas e consequentemente os medicamentos não tem o mesmo efeito.
 
 
 
@@ -112,11 +136,12 @@ View(df)
 
 
 
+media_nota <- 
+  df %>% 
+  group_by(medicamento) %>% 
+  summarise(media = mean(nota_voluntario))
 
-
-
-
-
+media_nota
 
 
 
