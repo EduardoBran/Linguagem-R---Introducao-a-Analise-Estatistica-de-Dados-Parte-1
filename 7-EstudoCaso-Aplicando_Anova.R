@@ -106,7 +106,7 @@ View(df)
 
 
 
-# Aplicando ANOVA
+# Aplicando teste ANOVA
 
 ?aov
 
@@ -124,7 +124,7 @@ summary(teste_anova)
 # Valor mais importante está na coluna " Pr(>F) " (Valor-p) que é uma estatística que nos dá o resultado sobre a 
 # interpretação de vários testes estatísticos.
 #
-# Valor-p < 0.05, ou seja, 0.000256 < 0.05, logo, reijeitamos a H0.
+# Valor-p < 0.05, ou seja, 0.000256 < 0.05, logo, rejeitamos a H0.
 #
 # As médias dos grupos não são as mesmas e consequentemente os medicamentos não tem o mesmo efeito.
 
