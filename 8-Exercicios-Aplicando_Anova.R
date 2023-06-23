@@ -53,7 +53,7 @@ library(ggplot2)
 #      três regiões?
 
 
-# Criando os dados
+# Criando base de dados
 
 regiao_a <- c(5, 6, 4, 5, 7, 6, 5, 4, 6, 7, 5, 6, 7, 4, 5, 6, 5, 4, 6, 7, 6, 5, 4, 6, 5, 7, 6, 5, 6, 4)
 regiao_b <- c(7, 8, 6, 9, 5, 7, 8, 6, 7, 9, 6, 8, 7, 6, 9, 8, 7, 6, 8, 9, 7, 6, 8, 9, 7, 6, 8, 7, 9, 8)
@@ -86,10 +86,53 @@ summary(teste_anova)
 
 
 
+# Exercício 2
+
+# - Suponha que você é um pesquisador que está estudando o efeito de diferentes dietas no peso corporal de ratos.
+#   Você tem três grupos de ratos, cada um submetido a uma dieta específica (Dieta A, Dieta B e Dieta C), e deseja
+#   determinar se há diferença significativa nos pesos médios dos ratos entre as três dietas.
+
+# Aqui estão os pesos dos ratos em cada grupo:
+  
+# Dieta A: 20, 22, 19, 23, 21
+# Dieta B: 18, 17, 20, 19, 16
+# Dieta C: 25, 24, 26, 27, 23
+
+# - Seu objetivo é realizar o teste ANOVA para determinar se há diferença significativa nos pesos médios entre as 3 dietas.
+#   Em seguida, interprete os resultados do teste e responda às perguntas relacionadas.
+
+# 1 - Há diferença significativa nos pesos médios dos ratos entre as três dietas?
+# 2 - Se houver diferença, quais dietas têm pesos médios significativamente diferentes umas das outras?
+# 3 - Se não houver diferença significativa, podemos concluir que os pesos médios dos ratos são aproximadamente iguais nas
+#     três dietas?
 
 
+# criando a base de dados
+
+dieta_a <- c(20, 22, 19, 23, 21)
+dieta_b <- c(18, 17, 20, 19, 16)
+dieta_c <- c(25, 24, 26, 27, 23)
+
+df <- data.frame(
+  dieta = rep(c("A", "B", "C"), each = 5),
+  peso = c(dieta_a, dieta_b, dieta_c)
+)
+View(df)
 
 
+# Aplicando teste ANOVA
+
+teste_anova <- aov(peso ~ dieta, data = df)
+teste_anova
+
+summary(teste_anova)
+
+
+# 1 - Sim, há diferença significativa no tempo médio de entrega entre as dietas A, B e C. Isso é indicado pelo valor
+#     extremamente baixo do valor-p (5.61e-05), que é menor do que o nível de significância comum de 0.05. Portanto,
+#     podemos rejeitar a hipótese nula e concluir que existe diferença significativa nas dietas.
+# 2 - Não tem como saber aplica apenas o teste ANOVA.
+# 3 - Não podemos concluir que os pesos médios dos ratos são aproximadamente iguais nas três dietas.
 
 
 
